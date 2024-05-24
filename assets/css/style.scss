@@ -1,0 +1,58 @@
+// Minimal SCSS content
+body {
+  font-family: Arial, sans-serif;
+}// Import Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
+
+body {
+  font-family: 'Crimson Text', serif;
+  background-color: #f5f5dc;
+  color: #333;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #ccc;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  color: #333;
+}
+
+p {
+  line-height: 1.6;
+  margin: 15px 0;
+}
+
+.post {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  text-align: center;
+  border-top: 2px solid #ccc;
+  margin-top: 20px;
+}

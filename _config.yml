@@ -1,7 +1,12 @@
-title: My Blog
-description: This is my personal blog.
+title: Nic's Blog
+description: Philisophical musics & software learnings
 baseurl: "/blog"
 url: "https://chinesecroll.github.io"
 theme: minima
 
-baseurl: "/blog"
+sass:
+  style: compressed
+
+# Ensure the following line is included to tell Jekyll to look for assets in the right place
+plugins:
+  - jekyll-sass-converter
