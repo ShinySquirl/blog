@@ -1,5 +1,5 @@
-title: Nic's Blog
-description: Philisophical musics & software learnings
+title: "Nic's Blog"
+description: "Philisophical musics & software learnings"
 baseurl: "/blog"
 url: "https://shinysquirl.github.io"
 theme: minima
@@ -7,9 +7,5 @@ theme: minima
 sass:
   style: compressed
 
-# Ensure the following line is included to tell Jekyll to look for assets in the right place
 plugins:
-  - jekyll-sass-converter'
-
-
-  /blog/
+  - jekyll-sass-converter
