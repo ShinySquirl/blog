@@ -1,6 +1,6 @@
 title: "Nic's Blog"
 description: "Philosophical musics & software learnings"
-baseurl: "/blog"
+baseurl: "/blog/"
 url: "https://shinysquirl.github.io"
 theme: minima
 

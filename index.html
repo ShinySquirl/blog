@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Welcome to My Blog   
+title: Welcome to My Blog
 ---
 
 <h1>Welcome to My Blog</h1>
@@ -9,7 +9,7 @@ title: Welcome to My Blog
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       <p>{{ post.excerpt }}</p>
     </li>
   {% endfor %}
