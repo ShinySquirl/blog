@@ -4,8 +4,6 @@ title: "A Year of Exploration"
 date: 2024-05-24
 ---
 
-# A year of exploration
-
 Began on July 1, 2023
 
 > I thought because I’d seen the investor side for a year, that it would be easy to complete the playbook. I was wrong.
