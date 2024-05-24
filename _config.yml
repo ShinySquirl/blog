@@ -1,6 +1,6 @@
 title: "Nic's Blog"
-description: "Philosophical musics & software learnings"
-baseurl: "/blog"
+description: "Philosophical musings & software learnings"
+baseurl: "/blog" 
 url: "https://shinysquirl.github.io"
 theme: minima
 
@@ -8,6 +8,12 @@ sass:
   style: compressed
 
 plugins:
-  - jekyll-sass-converter
-  - jekyll-feed
+  - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-archives
+  - jekyll-paginate
+  - jekyll-sass-converter
+
+markdown: kramdown
+highlighter: rouge
